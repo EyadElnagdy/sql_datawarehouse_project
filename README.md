@@ -28,7 +28,7 @@ CSV Files (ERP / CRM) ➡️ Bronze Layer (Raw) ➡️ Silver Layer (Cleaned & S
 
 ## Data Layers
 
-### Bronze Layer – Raw Ingestion
+### 🥉 Bronze Layer – Raw Ingestion
 **Purpose:** Preserve raw source data exactly as received.
 
 - Full load from CSV files
@@ -39,11 +39,11 @@ CSV Files (ERP / CRM) ➡️ Bronze Layer (Raw) ➡️ Silver Layer (Cleaned & S
 **Characteristics:**
 - Raw data types
 - Minimal constraints
-- Truncate-and-load or append strategy
+- Truncate-and-insert
 
 ---
 
-### Silver Layer – Cleansed & Standardized
+### 🥈 Silver Layer – Cleansed & Standardized
 **Purpose:** Improve data quality and consistency.
 
 - Data cleaning (null handling, deduplication)
@@ -58,7 +58,7 @@ CSV Files (ERP / CRM) ➡️ Bronze Layer (Raw) ➡️ Silver Layer (Cleaned & S
 
 ---
 
-### Gold Layer – Business Consumption
+### 🥇 Gold Layer – Business Consumption
 **Purpose:** Enable analytics and reporting.
 
 - Business-level aggregations
