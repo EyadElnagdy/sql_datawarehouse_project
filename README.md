@@ -1,4 +1,25 @@
-# sql_datawarehouse_project
-Building SQL datawarehouse project including data pipelines, data modelling, and data analytics
+# SQL Server Data Warehouse Project
 
-'select * from table'
+## Overview
+This project implements a **layered data warehouse architecture** using **Microsoft SQL Server**, designed to ingest and transform data from **ERP and CRM systems** delivered as CSV files.
+
+The solution follows modern **ELT best practices** and the **Bronze–Silver–Gold** pattern to ensure data quality, scalability, and analytics readiness.
+
+---
+
+## Business Requirements
+- Source systems (ERP and CRM) export data as **CSV files**
+- Files are already available in a **designated folder**
+- Data must be:
+  - Fully loaded into the data warehouse
+  - Cleaned and standardized
+  - Aggregated for business reporting and analytics
+
+---
+
+## Architecture Overview
+
+### Data Flow
+
+
+
