@@ -21,11 +21,5 @@ The solution follows modern **ELT best practices** and the **Bronze–Silver–G
 
 ### Data Flow
 
-CSV Files (ERP / CRM)
-↓
-Bronze Layer (Raw)
-↓
-Silver Layer (Cleaned & Standardized)
-↓
-Gold Layer (Business Views & Aggregations)
+CSV Files (ERP / CRM) ➡️ Bronze Layer (Raw) ➡️ Silver Layer (Cleaned & Standardized) ➡️ Gold Layer (Business Views & Aggregations)
 
