@@ -92,3 +92,4 @@ LEFT JOIN gold.dim_customers c
 	ON a.sls_cust_id=c.customer_id;
 
 GO
+
